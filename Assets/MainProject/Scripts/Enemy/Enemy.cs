@@ -189,6 +189,7 @@ public class Enemy : MonoBehaviour
         isAttack = false;
     }
 
+    // 공격 콜라이더 온오프
     public void AttackOn()
     {
         meleeArea.enabled = true;

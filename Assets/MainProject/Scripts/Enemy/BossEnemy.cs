@@ -49,6 +49,7 @@ public class BossEnemy : MonoBehaviour
     // 분신 스킬 여부
     private bool isAlterEgo = false;
 
+    private bool test = false;
     private void Awake()
     {
         rigid = GetComponent<Rigidbody>();
